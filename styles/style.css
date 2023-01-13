@@ -130,6 +130,7 @@ main {
 @media only screen and (max-width:688px){
    .container{
       width: 100%;
+      padding: 0px;
    }
    .section-title{
       text-align: center;
@@ -157,6 +158,20 @@ main {
       justify-content: space-between;
    }
 
-   
 
+}
+
+/* tab device */
+
+@media only screen  and (min-width:689px) and (max-width:992px){
+
+   .container{
+      width: 100%;
+      /* margin-left: 50px; */
+      padding: 0px;
+   }
+   .players, .courses{
+      grid-template-columns: repeat(2, 1fr);
+   }
+   
 }
